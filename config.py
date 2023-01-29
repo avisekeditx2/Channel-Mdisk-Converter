@@ -28,10 +28,7 @@ FORWARD_MESSAGE = is_enabled((os.environ.get('FORWARD_MESSAGE', "True")), True)
 SOURCE_CODE = os.environ.get("SOURCE_CODE", "https://github.com/CyniteOfficial/Channel-Mdisk-Converter")
 USERNAME = os.environ.get("USERNAME", "movie_url")
 HEADER_TEXT = os.environ.get("HEADER_TEXT", '')
-FOOTER_TEXT = os.environ.get("FOOTER_TEXT", "Main Channel 👇🏻
-https://t.me/movie_url
-Request Movies Here👇🏻
-https://t.me/Mdisk_movie_search_bot_v2")
+FOOTER_TEXT = os.environ.get("FOOTER_TEXT", "Join @movie_url")
 BANNER_IMAGE = os.environ.get("BANNER_IMAGE", '')
 WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", '')
 LINK_BYPASS = is_enabled((os.environ.get('LINK_BYPASS', "False")), False)
